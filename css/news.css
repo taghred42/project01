@@ -1,0 +1,128 @@
+
+.content-news{
+    overflow: hidden;
+    background-color: #f9f9f9;
+
+}
+.items-news{
+    float: left;
+    width: 30%;
+    background-color: #fff;
+    position: relative;
+}
+.img-news{
+    width: 100%;
+    margin-left: 23px;
+}
+.info-news{
+    padding: 20px;
+}
+.news-list{
+    margin: 10px 0px;
+    list-style: none;
+}
+.news-list li{
+    display: inline-block;
+    font-size: 13px;
+    margin: 0px 5px;
+}
+.news-list li i{
+    color: #fcc111;
+}
+.news-title{
+    margin: 20px 0px;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
+.news-phag{
+    color: #999;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.news-link{
+    color: #fcc111;
+    text-decoration: none;
+}
+.items-news.gg{
+    margin: 0 5%;
+}
+.items-news:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0%;
+    bottom: 0;
+    transition: 1s;
+    opacity: 0;
+    background-color: #aeaca8;
+}
+.items-news:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.footer{
+    background-color: #999;
+    text-align: center;
+    height: 300px;
+    padding: 60px 0;
+}
+.footer-link{
+    list-style: none;
+    margin: 20px 0;
+}
+.footer-link li{
+    display: inline-block;
+    background-color: #fcc111;
+    width:50px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.footer-link li a{
+    display: block;
+    width:100%;
+    height: 100%;
+    color:#fcc111;
+    color: #fff;
+    line-height: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 21px;
+    margin: 0 8px;
+}
+.footer-link li:after{
+    position: absolute;
+    content: "";
+    opacity: 0;
+    transition: .3s;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer-link li:hover:after{
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    border-radius: 50%;
+}
+.footer p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d7d7d7;
+}
+
+
+
+
+

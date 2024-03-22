@@ -1,0 +1,40 @@
+
+.numbers{
+    position: relative;
+    background-image: url(../images/eng15.jpg);
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.overlay-numbers{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6)
+
+}
+.content-numbers{
+    overflow: hidden;
+    padding-top: 130px;
+}
+.items-numbers{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.icons-numbers{
+    margin-bottom: 15px;
+    color: #fcc111;
+    font-size: 23px;
+}
+.title-items-numbers{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+.pagh-items-numbers{
+    color: #fff;
+}

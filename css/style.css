@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+    font-family: "pt-sans", sans-serif;
+    height: 5000px;
+
+}
+
+.header1 {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    border-radius: 5px;
+}
+
+
+.image1 {
+    width: 110px;
+    height: 50px;
+    margin-left: 150px;
+    float: left;
+}
+
+.list {
+    list-style-type: none;
+    float: right;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+.list li {
+    display: inline-block;
+    margin-right: 25px;
+    color: #000;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.list:hover li a {
+    color: #fcc111;
+
+
+}
+
+.home1 .link-home {
+    font-size: 22px;
+    border: 3px solid #fcc111;
+    border-top-right-radius: 10px;
+}
+
+.home1 .link-home:hover {
+    border: 3px solid black;
+    border-top-right-radius: 10px;
+
+
+}
+
+.li-pro .prot:hover {
+    border: 3px solid black;
+    border-top-right-radius: 10px;
+    font-size: 22px;
+
+}
+.div1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/eng2.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+
+.overley1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.title1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.pt {
+    display: inline;
+    color: #fcc111;
+}
+
+.text1 {
+    color: #fcc111;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.text2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.p1 {
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 15px 0px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.btn {
+    height: 42px;
+    border: none;
+    border-end-start-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-right: 12px;
+    padding: 10px;
+
+
+}
+
+.btn1 {
+    color: gray;
+}
+
+.btn2 {
+    color: #fff;
+    background-color: #fcc111;
+
+}
+
+.btn:hover {
+    opacity: .5;
+}

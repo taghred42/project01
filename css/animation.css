@@ -1,0 +1,52 @@
+.animation{
+    position: relative;
+    background-image: url(../images/eng58.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+}
+.overlay-animation{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6)
+}
+.content-animation{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+.items-content{
+    float: left;
+    width: 50%;
+    color: #fff;
+    padding-right: 20px;
+    padding-top: 55px;
+    margin-bottom: 110px;
+}
+.item-img{
+    padding:90px 20px 10px 150px;
+    position:relative;
+    line-height: 1.4;
+    margin-bottom: 20px;
+ 
+}
+.item-img img{
+    position: absolute;
+    top: 82px;
+    left: 65px;
+    border-radius: 50%;
+ 
+}
+.item-img span{
+    color: #fcc111;
+}
+.pagh-animation{
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-left: 76px;
+    font-size: 14px;
+ 
+}

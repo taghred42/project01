@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'varela round', sans-serif;
+}
+
+.featured{
+    background-color:#fafafa;
+    padding: 120px 0px;
+}
+.featured-header{
+    text-align: center;
+}
+.featured-header .title-header{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    margin-top: 7px;
+
+}
+.featured-header .line-header{
+    display: block;
+    width: 62px;
+    height: 4px;
+    background-color:#fcc111;
+    margin: 0 auto 70px auto;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.content-featured{
+    overflow: hidden;
+}
+.content-featured img{   
+
+    width: 100%;
+}
+.items-featured{
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px;
+
+}
+.items-featured .items-featured-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.items-featured:hover .items-featured-info{
+    opacity:1;
+    visibility: visible;
+
+}
+.items-featured-info .items-featured-work{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.items-featured-info span{
+    color: #fcc111;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+
+}
+.items-featured-info h3{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+
+}
+.items-featured-info a{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background-color:#fafafa;
+    color: #fcc111;
+    position: relative;
+    top:14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+    text-decoration: none;
+
+}
+.items-featured:hover .items-featured-info span{
+    top:0;
+    opacity: 1;
+    visibility: visible;
+
+}
+.items-featured:hover .items-featured-info h3{
+    top:0;
+    opacity: 1;
+    visibility: visible;
+
+}
+.items-featured:hover .items-featured-info a{
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+
+}
+.items-featured-info a i{
+    line-height: 35px;
+}
